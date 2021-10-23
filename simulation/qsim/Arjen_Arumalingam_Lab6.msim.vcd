@@ -1,0 +1,280 @@
+$comment
+	File created using the following command:
+		vcd file Arjen_Arumalingam_Lab6.msim.vcd -direction
+$end
+$date
+	Fri Dec 04 15:24:48 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module P3_vlg_vec_tst $end
+$var reg 8 ! A [7:0] $end
+$var reg 8 " B [7:0] $end
+$var reg 1 # Clock $end
+$var reg 1 $ data_in $end
+$var reg 1 % En1 $end
+$var reg 1 & Resetb $end
+$var reg 1 ' ResetFSM $end
+$var reg 1 ( Resetn $end
+$var wire 1 ) current_state [3] $end
+$var wire 1 * current_state [2] $end
+$var wire 1 + current_state [1] $end
+$var wire 1 , current_state [0] $end
+$var wire 1 - OP [15] $end
+$var wire 1 . OP [14] $end
+$var wire 1 / OP [13] $end
+$var wire 1 0 OP [12] $end
+$var wire 1 1 OP [11] $end
+$var wire 1 2 OP [10] $end
+$var wire 1 3 OP [9] $end
+$var wire 1 4 OP [8] $end
+$var wire 1 5 OP [7] $end
+$var wire 1 6 OP [6] $end
+$var wire 1 7 OP [5] $end
+$var wire 1 8 OP [4] $end
+$var wire 1 9 OP [3] $end
+$var wire 1 : OP [2] $end
+$var wire 1 ; OP [1] $end
+$var wire 1 < OP [0] $end
+$var wire 1 = parity $end
+$var wire 1 > student_id [3] $end
+$var wire 1 ? student_id [2] $end
+$var wire 1 @ student_id [1] $end
+$var wire 1 A student_id [0] $end
+$var wire 1 B sampler $end
+$scope module i1 $end
+$var wire 1 C gnd $end
+$var wire 1 D vcc $end
+$var wire 1 E unknown $end
+$var tri1 1 F devclrn $end
+$var tri1 1 G devpor $end
+$var tri1 1 H devoe $end
+$var wire 1 I Clock~combout $end
+$var wire 1 J Clock~clkctrl_outclk $end
+$var wire 1 K inst|yfsm.s0~0_combout $end
+$var wire 1 L ResetFSM~combout $end
+$var wire 1 M ResetFSM~clkctrl_outclk $end
+$var wire 1 N data_in~combout $end
+$var wire 1 O inst|yfsm.s0~regout $end
+$var wire 1 P inst|yfsm.s1~0_combout $end
+$var wire 1 Q inst|yfsm.s1~regout $end
+$var wire 1 R inst|yfsm.s2~feeder_combout $end
+$var wire 1 S inst|yfsm.s2~regout $end
+$var wire 1 T inst|yfsm.s3~feeder_combout $end
+$var wire 1 U inst|yfsm.s3~regout $end
+$var wire 1 V inst|yfsm.s4~regout $end
+$var wire 1 W inst|yfsm.s5~feeder_combout $end
+$var wire 1 X inst|yfsm.s5~regout $end
+$var wire 1 Y inst|yfsm.s6~regout $end
+$var wire 1 Z inst|yfsm.s7~feeder_combout $end
+$var wire 1 [ inst|yfsm.s7~regout $end
+$var wire 1 \ inst|yfsm.s8~regout $end
+$var wire 1 ] inst|WideOr10~0_combout $end
+$var wire 1 ^ inst5|Mux0~0_combout $end
+$var wire 1 _ inst5|Mux0~1_combout $end
+$var wire 1 ` inst5|p~regout $end
+$var wire 1 a inst|WideOr12~combout $end
+$var wire 1 b inst|WideOr13~0_combout $end
+$var wire 1 c inst|WideOr14~0_combout $end
+$var wire 1 d En1~combout $end
+$var wire 1 e inst4|Dec1|Mux0~0_combout $end
+$var wire 1 f inst4|Dec1|Mux1~0_combout $end
+$var wire 1 g inst4|Dec1|Mux2~0_combout $end
+$var wire 1 h inst4|Dec1|Mux3~0_combout $end
+$var wire 1 i inst4|Dec1|Mux4~0_combout $end
+$var wire 1 j inst4|Dec1|Mux5~0_combout $end
+$var wire 1 k inst4|Dec1|Mux6~0_combout $end
+$var wire 1 l inst4|Dec1|Mux7~0_combout $end
+$var wire 1 m inst|WideOr9~0_combout $end
+$var wire 1 n inst|WideOr11~0_combout $end
+$var wire 1 o inst4|m [0] $end
+$var wire 1 p inst4|m [1] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1110110 !
+b1100110 "
+0#
+1$
+1%
+0&
+0'
+0(
+0,
+0+
+0*
+0)
+1<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0=
+1A
+0@
+1?
+0>
+xB
+0C
+1D
+xE
+1F
+1G
+1H
+0I
+0J
+1K
+0L
+0M
+1N
+0O
+1P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+1]
+0^
+1_
+0`
+0a
+0b
+0c
+1d
+0e
+0f
+0g
+0h
+0i
+0j
+0k
+1l
+0m
+1n
+0p
+1o
+$end
+#20000
+1#
+1I
+1J
+0B
+1`
+1Q
+1O
+1m
+1c
+1R
+0n
+0P
+1=
+0l
+1k
+1,
+0A
+0?
+0<
+1;
+#40000
+0#
+0I
+0J
+1B
+#60000
+1#
+1I
+1J
+0B
+1S
+0Q
+1b
+1T
+0c
+0R
+0k
+1j
+1+
+0,
+0;
+1:
+#80000
+0#
+0I
+0J
+1B
+#100000
+1#
+1I
+1J
+0B
+1U
+0S
+1n
+1c
+1^
+0T
+1>
+0j
+1i
+1A
+1,
+0:
+19
+#120000
+0#
+0I
+0J
+1B
+#140000
+1#
+1I
+1J
+0B
+1V
+0U
+1a
+0]
+1W
+0n
+0m
+0c
+0b
+0_
+0>
+0i
+1h
+1_
+1*
+0A
+0,
+0+
+1@
+1?
+09
+18
+#160000
